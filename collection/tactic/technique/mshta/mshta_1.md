@@ -14,7 +14,7 @@ Koadic| Koadic can use MSHTA to serve additional payloads | [Link to Koadic](htt
 ![Windows7; Koadic](mshta_images/s2.png)
 ![Windows7; Koadic](mshta_images/s3.png)
 
-<h2> Analysis </h2>
+<h2> Detection </h2>
 
 ## Sysmon 
 
