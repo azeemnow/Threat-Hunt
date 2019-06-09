@@ -20,3 +20,11 @@ objShell.Run ("%windir%\notepad.exe ")
 mshta vbscript:Execute("CreateObject(""Wscript.Shell"").Run(""{absolute path to Local VBSfile}\notepad.vbs"")(window.close)")
 ```
 ![Windows10; VBScript](mshta_images/s4_mshta_2.png)
+
+<h2> Detection </h2>
+
+## Sysmon 
+
+EventID | TaskCategory   | User  | SysmonVersion | Image                            |  Commandline | ParentImage
+------- | ---------------|-------|---------------|----------------------------------| -------------|----------------------|
+1       | ProcessCreate  |User   | 9.1.0         | C:\Windows\System32\rundll32.exe | mshta vbscript:Execute("CreateObject(""Wscript.Shell"").Run(""C:\Users\{user}\Desktop\new_atomic\notepad.vbs"")(window.close)") | cmd.exe
