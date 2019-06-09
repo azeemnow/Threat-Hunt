@@ -27,4 +27,5 @@ mshta vbscript:Execute("CreateObject(""Wscript.Shell"").Run(""{absolute path to 
 
 EventID | TaskCategory   | User  | SysmonVersion | Image                            |  Commandline | ParentImage
 ------- | ---------------|-------|---------------|----------------------------------| -------------|----------------------|
-1       | ProcessCreate  |User   | 9.1.0         | C:\Windows\System32\rundll32.exe | mshta vbscript:Execute("CreateObject(""Wscript.Shell"").Run(""C:\Users\{user}\Desktop\new_atomic\notepad.vbs"")(window.close)") | cmd.exe
+1       | ProcessCreate  |User   | 9.1.0         | C:\Windows\System32\mshta.exe    | mshta vbscript:Execute("CreateObject(""Wscript.Shell"").Run(""C:\Users\{USER}\Desktop\new_atomic\notepad.vbs"")(window.close)") | cmd.exe
+1       | ProcessCreate  |User   | 9.1.0         | C:\Windows\System32\wscript.exe  |  "C:\windows\System32\WScript.exe" "C:\Users\{USER}\Desktop\new_atomic\notepad.vbs"                                              | mshta.exe
