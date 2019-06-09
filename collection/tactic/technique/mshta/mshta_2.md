@@ -15,3 +15,8 @@ Local VBScript File | Mshta calls a local VBS file which launches notepad.exe   
 Set objShell = WScript.CreateObject("WScript.Shell")
 objShell.Run ("%windir%\notepad.exe ")
 ```
+## Execution Command Line 
+```
+mshta vbscript:Execute("CreateObject(""Wscript.Shell"").Run(""{absolute path to Local VBSfile}\notepad.vbs"")(window.close)")
+```
+![Windows10; VBScript](mshta_images/s4_mshta_2.png)
