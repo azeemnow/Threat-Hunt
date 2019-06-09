@@ -24,8 +24,11 @@ mshta vbscript:Execute("CreateObject(""Wscript.Shell"").Run(""{absolute path to 
 <h2> Detection </h2>
 
 ## Sysmon 
+Sequential 
 
 EventID | TaskCategory   | User  | SysmonVersion | Image                            |  Commandline | ParentImage
 ------- | ---------------|-------|---------------|----------------------------------| -------------|----------------------|
 1       | ProcessCreate  |User   | 9.1.0         | C:\Windows\System32\mshta.exe    | mshta vbscript:Execute("CreateObject(""Wscript.Shell"").Run(""C:\Users\{USER}\Desktop\new_atomic\notepad.vbs"")(window.close)") | cmd.exe
 1       | ProcessCreate  |User   | 9.1.0         | C:\Windows\System32\wscript.exe  |  "C:\windows\System32\WScript.exe" "C:\Users\{USER}\Desktop\new_atomic\notepad.vbs"                                              | mshta.exe
+5       | ProcessTerminated  |User   | 9.1.0         | C:\Windows\System32\mshta.exe    | 
+1       | ProcessCreate  | User  | 9.1.0         |  C:\Windows\notepad.exe          | "C:\windows\notepad.exe"  |  C:\Windows\System32\wscript.exe 
