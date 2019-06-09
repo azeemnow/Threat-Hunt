@@ -6,6 +6,12 @@ Mshta.exe is a utility that executes Microsoft HTML Applications (HTA). HTA file
 
 <h2> Test </h2>
 
-Name                | Description                                          | Reference
-------------------- | --------------------------------------------------   | ------------
-Local VBScript File | Mshta calls local VBS file which launches notepad    | 
+Name                | Description                                                | Reference
+------------------- | --------------------------------------------------         | ------------
+Local VBScript File | Mshta calls a local VBS file which launches notepad.exe    | 
+
+## Local VBScript File Content
+```
+Set objShell = WScript.CreateObject("WScript.Shell")
+objShell.Run ("%windir%\notepad.exe ")
+```
