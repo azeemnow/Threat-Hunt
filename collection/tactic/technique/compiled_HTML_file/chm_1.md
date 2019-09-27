@@ -7,3 +7,6 @@ Compiled HTML files (.chm) are commonly distributed as part of the Microsoft HTM
 Adversaries may abuse this technology to conceal malicious code. A custom CHM file containing embedded payloads could be delivered to a victim then triggered by User Execution. CHM execution may also bypass application whitelisting on older and/or unpatched systems that do not account for execution of binaries through hh.exe.
 
 <h2> Test </h2>
+Name  | Description                                       | Reference
+----- | --------------------------------------------------| ------------
+Network Conn| Custom CHM file that simulates outbound network connection |  
