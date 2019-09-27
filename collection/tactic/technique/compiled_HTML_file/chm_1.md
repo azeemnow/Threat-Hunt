@@ -45,6 +45,13 @@ Network Comm. | Simulates adversary leveraging custom CHM for outbound network c
 
 Execute the CHM file generated above using Windows HTML Helper through Windows Command Prompt: 
 ```
-hh.exe [].chm
+C:\ hh.exe [].chm
 ```
 
+<h2> Detection </h2>
+
+## Sysmon 
+
+EventID | TaskCategory       | User  | SysmonVersion | Image             |  Commandline 
+------- | ------------------ |-------|---------------|-------------------| ------------
+3       | NetworkConnection  | user   | 9.1.0         | C:\Windows\hh.exe | NA
