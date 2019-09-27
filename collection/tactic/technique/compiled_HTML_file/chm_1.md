@@ -52,10 +52,6 @@ C:\ hh.exe [].chm
 
 ## Sysmon 
 
-<h2> Detection </h2>
-
-## Sysmon 
-
 EventID | TaskCategory   | User  | SysmonVersion | Image             |  Commandline 
 ------- | ---------------|-------|---------------|-------------------| ------------
 1       | ProcessCreate  |user   | 9.1.0         | C:\Windows\hh.exe | hh.exe test.chm
