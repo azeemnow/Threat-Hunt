@@ -16,11 +16,11 @@ Network Comm. | Simulates adversary leveraging custom CHM for outbound network c
 
 <h4> Create a custom CHM File </h3>
 
-1 Install HelpNDoc (https://www.helpndoc.com/)
-2 Create a new project
-3 Choose one of the empty files from the table of contents on the left
-4 Select Insert from the top Ribbon and choose Insert > Insert another HTML code
-5 Insert the following code; update the domain name:
+1. Install HelpNDoc (https://www.helpndoc.com/)
+2. Create a new project
+3. Choose one of the empty files from the table of contents on the left
+4. Select Insert from the top Ribbon and choose Insert > Insert another HTML code
+5. Insert the following code; update the domain name:
 ```
     <html>
     <head>
