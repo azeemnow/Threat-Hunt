@@ -20,9 +20,9 @@ Network Comm. | Simulates adversary leveraging custom CHM for outbound network c
 * Create a new project
 * Choose one of the empty files from the table of contents on the left
 * Select Insert from the top Ribbon and choose Insert > Insert another HTML code
-* Insert the following code
+* Insert the following code; update the domain name:
 ```
-<html>
+    <html>
     <head>
     <script type="text/javascript">
     function load()
@@ -37,4 +37,5 @@ Network Comm. | Simulates adversary leveraging custom CHM for outbound network c
     <h1>Hello World!</h1>
     </body>
     </html>
-    ```
+    
+
