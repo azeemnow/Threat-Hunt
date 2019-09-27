@@ -61,6 +61,6 @@ EventID | TaskCategory   | User  | SysmonVersion | Image             |  Commandl
 1       | ProcessCreate  |user   | 9.1.0         | C:\Windows\hh.exe | hh.exe test.chm
 
 
-EventID | TaskCategory       | User  | SysmonVersion | Image             |  DestinationIp   |  DestinationHostname
-------- | ------------------ |-------|---------------|-------------------| -----------------|--------------------
-3       | NetworkConnection  | user   | 9.1.0        | C:\Windows\hh.exe |  DestinationIP   |  DestinationHostname
+EventID | TaskCategory       | User  | SysmonVersion | Image             |  DestinationIp   |  DestinationHostname | DestinationPort  
+------- | ------------------ |-------|---------------|-------------------| -----------------|----------------------| ---------------- 
+3       | NetworkConnection  | user   | 9.1.0        | C:\Windows\hh.exe |  DestinationIP   |  DestinationHostname | ----------------
