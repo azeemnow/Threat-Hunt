@@ -15,6 +15,7 @@ Network Comm. | Simulates adversary leveraging custom CHM for outbound network c
 <h3> Test Development </h3>
 
 <h4> Create a custom CHM File </h3>
+
 * Install HelpNDoc (https://www.helpndoc.com/)
 * Create a new project
 * Choose one of the empty files from the table of contents on the left
