@@ -38,8 +38,8 @@ Network Comm. | Simulates adversary leveraging custom CHM for outbound network c
     </body>
     </html>
 ```
-6 After inserting the above HTML code, navigate to Home in the top ribbon and select Generate CHM documentation
-7 Move the generated CHM file to your test system
+6. After inserting the above HTML code, navigate to Home in the top ribbon and select Generate CHM documentation
+7. Move the generated CHM file to your test system
 
     
 
