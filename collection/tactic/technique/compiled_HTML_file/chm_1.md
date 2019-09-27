@@ -63,4 +63,6 @@ EventID | TaskCategory   | User  | SysmonVersion | Image             |  Commandl
 
 EventID | TaskCategory       | User  | SysmonVersion | Image             |  DestinationIp   |  DestinationHostname | DestinationPort  
 ------- | ------------------ |-------|---------------|-------------------| -----------------|----------------------| ---------------- 
-3       | NetworkConnection  | user   | 9.1.0        | C:\Windows\hh.exe |  DestinationIP   |  DestinationHostname | ----------------
+3       | NetworkConnection  | user   | 9.1.0        | C:\Windows\hh.exe |  DestinationIP   |  DestinationHostname | DestinationPort
+
+
