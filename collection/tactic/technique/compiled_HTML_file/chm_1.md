@@ -8,6 +8,8 @@ Adversaries may abuse this technology to conceal malicious code. A custom CHM fi
 
 <h2> Test </h2>
 
-Name          | Description                                                   | Reference
-------------- | --------------------------------------------------------------| ------------
-Network.Comm. | Custom CHM file that simulates outbound network communication |  
+Name          | Description                                                                  | Reference
+------------- | -----------------------------------------------------------------------------| ------------
+Network Comm. | Simulates adversary leveraging custom CHM for outbound network communication |  
+
+<h2> Requirements </h2>
