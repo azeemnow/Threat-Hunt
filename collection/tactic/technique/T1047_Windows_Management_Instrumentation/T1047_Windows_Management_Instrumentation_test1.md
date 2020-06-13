@@ -30,13 +30,13 @@ The result of the above command execution will be launch of Calculator program.
 
 <h2> Detection </h2>
 
-<h4> Log newly created WMI consumers and processes </h3>
+<h3> Log newly created WMI consumers and processes </h3>
 
-<h5> Download Script </h5> 
+<h4> Download Script </h4> 
 
 **WMIMonitor.ps1**  from https://github.com/realparisi/WMI_Monitor
 
-<h5> Install Script </h5> 
+<h4> Install Script </h4> 
 From an elevated Powershell:
 
 ```
@@ -44,3 +44,7 @@ From an elevated Powershell:
 2. Import-Module .\WMIMonitor.ps1
 3. New-EventSubscriberMonitor
 ```
+
+<h4> Event Capture </h4>
+
+![PowerShell_WMI; T1047](T1047_images/windows-management-instrumentation-2.png)
