@@ -21,7 +21,7 @@ PowerShell WMI Execution  | Simulates adversary leveraging PS WMI Script to list
 <h3> Test Execution </h3>
 
 Execute the above script in Windows PowerShell: 
-```
 
-```
+![PowerShell_WMI; T1063](T1063_images/security-software-discovery-1.png)
+
 The output from above will show list of installed security software in a CSV format.
