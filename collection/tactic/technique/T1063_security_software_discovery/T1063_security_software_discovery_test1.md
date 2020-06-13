@@ -28,3 +28,9 @@ The output from above will show list of installed security software in a CSV for
 
 <h2> Detection </h2>
 
+<h4> 1. Enable WMI Tracing </h3>
+
+```wevtutil sl Microsoft-Windows-WMI-Activity/Trace /e:true```
+
+
+https://docs.microsoft.com/en-us/windows/win32/wmisdk/tracing-wmi-activity
