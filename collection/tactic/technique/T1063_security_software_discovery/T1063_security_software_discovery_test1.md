@@ -29,8 +29,13 @@ The output from above will show list of installed security software in a CSV for
 <h2> Detection </h2>
 
 <h4> 1. Enable WMI Tracing </h3>
+Elevated Command Prompt
 
 ```wevtutil sl Microsoft-Windows-WMI-Activity/Trace /e:true```
 
-
 https://docs.microsoft.com/en-us/windows/win32/wmisdk/tracing-wmi-activity
+
+<h4> 2. Query WMI Tracing Logs </h3>
+
+
+```wevtutil.exe qe Microsoft-Windows-WMI-Activity/Trace |findstr /i AntivirusProduct```
