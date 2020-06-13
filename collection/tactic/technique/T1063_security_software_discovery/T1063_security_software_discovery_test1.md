@@ -19,3 +19,9 @@ PowerShell WMI Execution  | Simulates adversary leveraging PS WMI Script to list
 (WMIC /Node:localhost /Namespace:\\root\SecurityCenter2 Path AntivirusProduct Get displayname /format:csv)
 ```
 <h3> Test Execution </h3>
+
+Execute the above script in Windows PowerShell: 
+```
+
+```
+The output from above will show list of installed security software in a CSV format.
