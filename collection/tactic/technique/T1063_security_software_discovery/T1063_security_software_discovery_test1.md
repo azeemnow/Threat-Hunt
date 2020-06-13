@@ -5,3 +5,9 @@ Technique: Security Software Discovery (T1063)  </h1>
 Adversaries may attempt to get a listing of security software, configurations, defensive tools, and sensors that are installed on the system. This may include things such as local firewall rules and anti-virus. Adversaries may use the information from Security Software Discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.
 
 <h2> Test </h2>
+
+Name                      | Description                                                             | Reference
+------------------------- | ------------------------------------------------------------------------| ------------
+PowerShell WMI Execution  | Simulates adversary leveraging PS WMI Script to list Security Software  | N/A 
+
+<h3> Test Development </h3>
