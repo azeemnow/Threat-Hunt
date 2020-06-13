@@ -11,3 +11,11 @@ Name                      | Description                                         
 PowerShell WMI Execution  | Simulates adversary leveraging PS WMI Script to list Security Software  | N/A 
 
 <h3> Test Development </h3>
+
+<h4> Create a custom Powershell WMI script that lists names of installed security software on the system </h3>
+
+
+```
+(WMIC /Node:localhost /Namespace:\\root\SecurityCenter2 Path AntivirusProduct Get displayname /format:csv)
+```
+<h3> Test Execution </h3>
