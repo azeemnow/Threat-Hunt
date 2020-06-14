@@ -28,3 +28,5 @@ The output from above will show list of installed security software with additio
 
 <h2> Detection </h2>
 
+Review MITRE ATT&CK Evaluations to see how various vendors and technologies are detecting this technique:
+https://attackevals.mitre.org/technique_comparison.html?round=APT29&step_tid=4.C.7_T1063&vendors=
