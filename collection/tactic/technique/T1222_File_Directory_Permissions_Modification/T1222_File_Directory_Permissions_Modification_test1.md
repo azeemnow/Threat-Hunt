@@ -50,3 +50,6 @@ The image above shows the Test Execution command, and the result with updated Ad
 EventID | TaskCategory   | User  | SysmonVersion | Image                         |  Commandline 
 ------- | ---------------|-------|---------------|-------------------------------| ------------
 1       | ProcessCreate  |user   | 11.0          | C:\Windows\System32\cacls.exe | cacls T1222_Test.txt /e /p Administrators:N
+
+<h4> Event Capture </h4>
+
