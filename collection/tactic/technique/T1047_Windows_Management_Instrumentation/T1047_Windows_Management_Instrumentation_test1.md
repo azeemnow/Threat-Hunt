@@ -1,5 +1,5 @@
 
-<h1> Tactic: Execution
+<h1> Tactic: Execution |
 Technique: Windows Management Instrumentation (T1047)  </h1>
 <h2> From MITRE ATT&CK </h2>
 
