@@ -37,4 +37,6 @@ The output from above will show file's permissions for the `SYSTEM` , `Administr
 Modify `Administrators` permission's from **`F`** (full Permissions) to  **`N`** (none)
 ```
 C:\Users\hello\Desktop\T1222>cacls T1222_Test.txt /e /p Administrators:N
+
 ```
+
