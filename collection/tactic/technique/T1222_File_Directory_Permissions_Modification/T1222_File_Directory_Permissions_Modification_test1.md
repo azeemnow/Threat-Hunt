@@ -53,3 +53,7 @@ EventID | TaskCategory   | User  | SysmonVersion | Image                        
 
 <h4> Event Capture </h4>
 
+![enter image description here](https://github.com/azeemnow/Threat-Hunt/blob/master/collection/tactic/technique/T1222_File_Directory_Permissions_Modification/T1222_image/T1222_File_Directory_Permissions_Modification-4.png)
+
+ 
+ 
