@@ -29,6 +29,9 @@ File Perm. Modification   | Simulates adversary leveraging Cacls to modify file 
 ```
   C:\Users\hello\Desktop\T1222>cacls T1222_Test.txt
 ```
-The output from above will show file's permissions for the `SYSTEM` , `Administrator` and/or `User` account as **F** - (Full Permissions).
+The output from above will show file's permissions for the `SYSTEM` , `Administrators` and `User` account as **`F`** - (Full Permissions).
 ![File Permissions](https://github.com/azeemnow/Threat-Hunt/blob/master/collection/tactic/technique/T1222_File_Directory_Permissions_Modification/T1222_image/T1222_File_Directory_Permissions_Modification-2.png)
 
+<h3> Test Execution </h3>
+
+Modify `Administrators` permissions from **`F`** (full Permissions) to  **`N`** (none)
