@@ -39,4 +39,7 @@ Modify `Administrators` permission's from **`F`** (full Permissions) to  **`N`**
 C:\Users\hello\Desktop\T1222>cacls T1222_Test.txt /e /p Administrators:N
 
 ```
+![enter image description here](https://github.com/azeemnow/Threat-Hunt/blob/master/collection/tactic/technique/T1222_File_Directory_Permissions_Modification/T1222_image/T1222_File_Directory_Permissions_Modification-3.png)
+
+The show the Test Execution command, and the results with updated Administrators permission 
 
