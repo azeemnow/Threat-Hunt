@@ -16,3 +16,16 @@ At the time of this commit, MITRE ATT&CK does not include the old `cacls` Window
 Name                      | Description                                                     | Reference
 ------------------------- | ----------------------------------------------------------------| ------------
 File Perm. Modification   | Simulates adversary leveraging Cacls to modify file permission  | [SANS ISC](https://isc.sans.edu/diary/Malicious+Script+Leaking+Data+via+FTP/24484), [VT](https://www.virustotal.com/gui/file/1dcd1c508f00c124026052a66cfa1f215d0d06844c3d10977e607da23ee4618b/behavior/VirusTotal%20Cuckoofork) 
+
+<h3> Test Development </h3>
+
+<h4> Use Cacls to modify a newly created empty .text file's permission to "everyone" </h4>
+
+ 1. Create a black text file and give it:
+```
+  C:\Users\hello\Desktop\T1222>echo.>T1222_Test.txt
+```
+ 2. Check the current permissions of the above created file:
+```
+  C:\Users\hello\Desktop\T1222>cacls T1222_Test.txt
+```
