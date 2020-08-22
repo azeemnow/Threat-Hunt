@@ -29,3 +29,5 @@ File Perm. Modification   | Simulates adversary leveraging Cacls to modify file 
 ```
   C:\Users\hello\Desktop\T1222>cacls T1222_Test.txt
 ```
+The output from above will show file's permissions for the `SYSTEM` , `Administrator` and/or `User` account as **F** - (Full Permissions).
+
