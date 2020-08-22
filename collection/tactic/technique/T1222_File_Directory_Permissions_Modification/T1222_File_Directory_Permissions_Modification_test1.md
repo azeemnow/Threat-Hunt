@@ -44,3 +44,9 @@ C:\Users\hello\Desktop\T1222>cacls T1222_Test.txt /e /p Administrators:N
 The image above shows the Test Execution command, and the result with updated Administrators permission. 
 
 <h2> Detection </h2>
+
+### Sysmon 
+
+EventID | TaskCategory   | User  | SysmonVersion | Image                         |  Commandline 
+------- | ---------------|-------|---------------|-------------------------------| ------------
+1       | ProcessCreate  |user   | 11.0          | C:\Windows\System32\cacls.exe | cacls T1222_Test.txt /e /p Administrators:N
