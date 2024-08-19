@@ -4,6 +4,12 @@
 
 This Splunk query is designed to perform an **inventory analysis** of tools known to be used in ransomware operations within an enterprise environment. It searches through all indexed data to identify occurrences of specific tools associated with malicious activities or security vulnerabilities.
 
+## Inspiration
+
+This query is inspired by and adapted from the excellent project [Ransomware Tool Matrix](https://github.com/BushidoUK/Ransomware-Tool-Matrix) by BushidoUK. This project provides a comprehensive list of tools commonly associated with ransomware operations, which served as the basis for identifying and categorizing these tools in the Splunk query.
+
+@azeemnow
+
 ## Query
 
 ```spl
