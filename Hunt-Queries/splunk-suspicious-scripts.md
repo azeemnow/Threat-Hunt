@@ -39,11 +39,9 @@ Parent Process Analysis: Groups results by the process responsible for executing
 
 
 #### Search Query
-```spl
+```spl (@azeemnow)
 
 index=windows
-("*ps1*" OR "*psm1*" OR "*.psd1*" OR "*.bat*" OR "*.cmd*" OR "*.vbs*" OR
-"*.js*" OR "*.wsf*" OR "*.sh*" OR "*.hta*" OR "*.pl*" OR "*.py*" OR
-"*.ps1xml*")
+("*ps1*" OR "*psm1*" OR "*.psd1*" OR "*.bat*" OR "*.cmd*" OR "*.vbs*" OR "*.js*" OR "*.wsf*" OR "*.sh*" OR "*.hta*" OR "*.pl*" OR "*.py*" OR "*.ps1xml*")
 | eval dtime=strftime(_time, "%Y%m")
 | stats count values(Process_Command_Line) values(dtime) by Creator_Process_Name
