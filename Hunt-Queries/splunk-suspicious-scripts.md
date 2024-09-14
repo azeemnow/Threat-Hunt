@@ -10,19 +10,33 @@ Parent Process Analysis: Groups results by the process responsible for executing
 
 
 ### Extension Types Explained
-*.ps1: PowerShell script files. Used for executing commands or automating tasks within the Windows environment.
-*.psm1: PowerShell module files. Contain reusable PowerShell code that can be imported into other scripts or sessions.
-*.psd1: PowerShell data files. Used for defining data and configuration settings that can be imported into PowerShell scripts.
-*.bat: Batch script files. Executed by the Windows Command Processor to run a series of commands automatically.
-*.cmd: Command script files. Similar to .bat files but with some additional features and syntax support.
-*.vbs: VBScript files. Used for scripting tasks within Windows and Internet Explorer.
-*.js: JavaScript files. Commonly used for scripting web pages, but can also be run on the Windows OS.
-*.wsf: Windows Script Files. Used for running multiple scripts in a single file, supporting VBScript, JScript, and other scripting languages.
-*.sh: Shell script files. Typically used in Unix/Linux environments for executing commands and automating tasks.
-*.hta: HTML Application files. Can execute scripts and run HTML applications with embedded scripts.
-*.pl: Perl script files. Used for a variety of tasks, including web development and system administration.
-*.py: Python script files. Used for a wide range of programming tasks and automation.
-*.ps1xml: PowerShell XML files. Used for defining PowerShell objects and their formatting.
+
+- **`*.ps1`**: PowerShell script files. Used for executing commands or automating tasks within the Windows environment.
+
+- **`*.psm1`**: PowerShell module files. Contain reusable PowerShell code that can be imported into other scripts or sessions.
+
+- **`*.psd1`**: PowerShell data files. Used for defining data and configuration settings that can be imported into PowerShell scripts.
+
+- **`*.bat`**: Batch script files. Executed by the Windows Command Processor to run a series of commands automatically.
+
+- **`*.cmd`**: Command script files. Similar to `.bat` files but with some additional features and syntax support.
+
+- **`*.vbs`**: VBScript files. Used for scripting tasks within Windows and Internet Explorer.
+
+- **`*.js`**: JavaScript files. Commonly used for scripting web pages, but can also be run on the Windows OS.
+
+- **`*.wsf`**: Windows Script Files. Used for running multiple scripts in a single file, supporting VBScript, JScript, and other scripting languages.
+
+- **`*.sh`**: Shell script files. Typically used in Unix/Linux environments for executing commands and automating tasks.
+
+- **`*.hta`**: HTML Application files. Can execute scripts and run HTML applications with embedded scripts.
+
+- **`*.pl`**: Perl script files. Used for a variety of tasks, including web development and system administration.
+
+- **`*.py`**: Python script files. Used for a wide range of programming tasks and automation.
+
+- **`*.ps1xml`**: PowerShell XML files. Used for defining PowerShell objects and their formatting.
+
 
 #### Search Query
 ```spl
