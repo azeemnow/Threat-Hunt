@@ -1,3 +1,4 @@
+# USB Drive Mounted Events Analysis 
 ## Summary of the KQL Query
 
 This query retrieves and analyzes events related to USB drives mounted on devices. It focuses on:
