@@ -9,6 +9,8 @@ This KQL query filters events from the `DeviceProcessEvents` table to identify t
 - **Accountability**: Provides information about which accounts are initiating remote access processes, supporting accountability and investigation efforts.
 - **Proactive Defense**: Enables proactive security measures by identifying trends in remote access usage that may indicate malicious activity.
 
+# KQL
+
 ```kql
 DeviceProcessEvents
 | where FileName in~ ("anydesk.exe",    // AnyDesk
