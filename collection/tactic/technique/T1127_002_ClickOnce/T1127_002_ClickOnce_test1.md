@@ -29,7 +29,7 @@ namespace clickonce4
 
         private async void button1_Click(object sender, EventArgs e)
         {
-            string url = "https://drive.google.com/file/d/1JdZiLXGxISmSIeSG4kBLOfIfLZb5CTuE/view?usp=drive_link";
+            string url = "https://ENTER-URL-TO-DOWNLOAD-FILE-FROM";
 
             // Get the user's home directory path
             string userHomePath = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
@@ -59,9 +59,18 @@ namespace clickonce4
     }
 }
 ```
+## Test Details
+
+The test code demonstrates how a custom .NET application can use ClickOnce-like behavior to download a file from a specified URL and save it to the user's home directory. Specifically, the code performs the following actions:
+
+1. **Initiates a Download**: The application triggers a file download from a specified URL using the `HttpClient` class.
+2. **Generates a Unique Filename**: It dynamically creates a unique filename for the downloaded file, incorporating the current date and time (formatted as `downloaded_file_<yyyyMMddHHmm>.zip`).
+3. **Saves the File Locally**: The downloaded file is saved in the user's home directory.
+4. **Completion Message**: Once the file is successfully downloaded, a message box is displayed to notify the user of the successful download.
+
+In essence, the test simulates a file download via a URL, demonstrating how an attacker could use ClickOnce to deliver malicious content by manipulating URLs and file handling within trusted developer utilities.
 
 ### Test Execution
-
 1. Save the above C# code to a file (e.g., `ClickOnceApp.cs`).
 2. Compile the code using Visual Studio or the `csc` command-line compiler to produce an executable (e.g., `ClickOnceApp.exe`).
 3. Execute the application.
@@ -83,7 +92,7 @@ Get-WinEvent -LogName Security | Where-Object { $_.Message -match "rundll32.exe 
 ### Input Arguments
 
 - **`file_download_url`**: URL to the file to be downloaded by the ClickOnce application.
-  - Example: `https://drive.google.com/file/d/1JdZiLXGxISmSIeSG4kBLOfIfLZb5CTuE/view?usp=drive_link`
+  - Example: `https://drive.google.com/file.....`
   
 - **`file_name_pattern`**: Pattern for the saved file name (timestamped).
   - Example: `downloaded_file_<yyyyMMddHHmm>.zip`
