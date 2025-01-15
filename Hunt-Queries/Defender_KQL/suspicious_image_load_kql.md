@@ -65,6 +65,9 @@ For each flagged item:
  - [ ] Investigate high-count executions from limited processes
  - [ ] Review files in randomly named temp directories
  - [ ] Cross-reference UniqueDevices count with expected behavior
+
+For a more detailed investigation, check out my triage KQL: (https://github.com/azeemnow/Threat-Hunt/blob/master/Hunt-Queries/Defender_KQL/suspicious-file-activity-triage-kql.md) 
+
 ## Limitations
 
 - Limited to 15 results for focused analysis
